@@ -16,6 +16,8 @@ The application will allow users to share their work publicly for others to see.
 * Clone the repository to your local machine
 * Navigate to the project folder in your terminal
 * Run 'bundle install' to ensure all necessary gems are present
+* Run 'rails db:create' to create local development and test databases
+* Update the config/database.yml with a local username/password for your psql setup
 * Run 'rails db:seed' to ensure the database has the initial seeds present
 * Run 'rails server' to or 'rails s -p 4001' to start a local server
 * Use your web browser at the correct localhost port to view
